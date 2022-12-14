@@ -12,6 +12,7 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+
 }
 
 repositories {
@@ -33,10 +34,11 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'SAICdemo.App'
+    mainClass = 'saic.demo.App'
 }
 
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
