@@ -1,6 +1,6 @@
 package saic.demo.exercise
 
-import saic.demo.App
+
 import saic.demo.excercise.Staircase
 import spock.lang.Specification
 
@@ -19,8 +19,5 @@ class StaircaseTest  extends Specification{
         testInput                         | steps   |     expectedResult
         [1..10].dump()  as int []         | 4       |     97
         [1..20].dump()  as int []         | 1       |     106
-
-
     }
-
 }
